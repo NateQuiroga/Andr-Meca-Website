@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "neue-haas-grotesk-display";
+    src: url("./assets/NHaasGroteskDSPro-45Lt.ttf") format("ttf"),
+         url("./assets/NHaasGroteskDSPro-45Lt.woff") format("woff");
+}
+
+.h1 {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-family: "neue-haas-grotesk-display", sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 36px;
+    margin: 0px;
+    padding-bottom: 0px;
+    position: relative;
+    top: -1px;
+}
+
+body {
+    background-color: black;
+    margin-left: 72px;
+    padding-top: 12px;
+}
+
+.section {
+    margin-bottom: 36px;
+}
+
+body.gridShown {
+    background-image: linear-gradient(rgba(255,0,0,0.5), rgba(255,0,0,0.5) 1px, transparent 1px);
+    background-size: 1px 12px;
+    background-position: 0 -1px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    display: inline-block; 
+}
+
+a:hover {
+    color: #787878;
+    transition: margin-right 4s, color 1s;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 640px){
+    body{
+        margin-left: 72px;
+    }
+}
+
