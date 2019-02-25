@@ -21,6 +21,7 @@ body {
     background-color: black;
     margin-left: 72px;
     padding-top: 12px;
+    -webkit-font-smoothing: antialiased;
 }
 
 .section {
@@ -42,12 +43,16 @@ a {
 
 a:hover {
     color: #787878;
-    transition: margin-right 4s, color 1s;
+    transition: color .3s;
 }
 
 ul {
     padding: 0;
     margin: 0;
+}
+
+svg {
+    margin-left: 6px;
 }
 
 @media (min-width: 640px){
